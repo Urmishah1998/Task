@@ -1,0 +1,48 @@
+.group {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    
+}
+.links {
+    padding: 10px;
+    border-radius: 10px;
+    background-color:blanchedalmond;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 5rem;
+    border: slategrey 4px double;
+    text-decoration-line: none;
+    margin-right: 5vw;
+}
+.links:hover {
+    background-color:slategrey;
+    cursor: pointer;
+    
+}
+
+@media screen and (min-width: 500px) and (max-width: 720px) {
+    .links {
+        padding: 7px;
+        font-size: 4rem;
+        margin-right: 3vw;
+    }
+}
+@media screen and (min-width: 385px) and (max-width: 499px) {
+    .links {
+        padding: 4px;
+        font-size: 3rem;
+        margin-right: 3vw;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 384px) {
+    .group {
+        flex-direction: column;
+        
+    }
+    .links {
+        padding: 4px;
+        font-size: 3rem;
+        margin-right: 3vw;
+    }
+}

@@ -1,0 +1,16 @@
+body{
+    background-color: mintcream;
+}
+.group {
+    text-align: center;
+    font-weight: 300;
+    padding: 8px;
+    font-size: 2rem;
+    font-family:Cambria, Cochin;
+    color:black;
+    width:30%;
+    text-decoration-line: none;
+    border:blue 1px groove;
+    border-radius: 5px;
+    margin-left: 20%;
+}

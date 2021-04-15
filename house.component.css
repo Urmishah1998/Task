@@ -1,0 +1,47 @@
+.card {
+    align-self: center;
+    border-radius: 10px;
+    display: block;
+    width: 50vw;
+    height: auto;
+    align-content: center;
+    border: darkgreen 6px double;
+}
+.card .card-header {
+    text-align: center;
+    font-weight: 700;
+    padding: 8px;
+    font-size: 4rem;
+    font-family:'Segoe UI', Tahoma;
+    color: darkgreen;
+}
+.card .list-group .list-group-item {
+    text-align: center;
+    font-weight: 500;
+    padding: 8px;
+    font-size: 2rem;
+    font-family:Cambria, Cochin;
+    color: green;
+    background-color:rgba(201, 233, 209, 0.993);
+    text-decoration-line: none;
+    border: darkgreen 1px groove;
+}
+
+@media screen and (min-width: 250px) and (max-width: 365px) {
+    .card .card-header {
+        font-weight: 500;
+        font-size: 3rem;
+    }
+    .links {
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 249px) {
+    .card .card-header {
+        font-weight: 400;
+        font-size: 2rem;
+    }
+    .links {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,75 @@
+.card {
+    align-self: center;
+    border-radius: 10px;
+    display: block;
+    width: 50vw;
+    height: auto;
+    align-content: center;
+    border: navy 6px double;
+}
+#showdiv {
+    min-width: 90vw;
+}
+.card .card-header {
+    text-align: center;
+    font-weight: 700;
+    padding: 8px;
+    font-size: 4rem;
+    font-family:'Segoe UI', Tahoma;
+    color: navy;
+}
+.card .list-group .list-group-item {
+    justify-content: safe;
+    overflow: hidden;
+    font-weight: 500;
+    padding: 8px;
+    font-size: 2rem;
+    font-family:Cambria, Cochin;
+    color: midnightblue;
+    background-color:lightblue;
+    text-decoration-line: none;
+    border: navy 1px groove;
+}
+.card .list-group .list-group-item a {
+    color: midnightblue;
+}
+.card .list-group .list-group-item a:hover {
+    font-weight: 600;
+    color: darkblue;
+    text-decoration-line: overline;
+    cursor: pointer;
+}
+
+@media screen and (min-width:480 px) and (max-width: 600px) {
+    .list-group-item a {
+        font-weight: 200;
+        font-size: 1rem;
+        height: auto;
+    }    
+}
+@media screen and (min-width:437 px) and (max-width: 479px) {
+    .list-group-item a {
+        font-weight: 200;
+        font-size: 1rem;
+        height: auto;
+    }    
+}
+
+@media screen and (min-width: 328px) and (max-width: 436px) {
+    .card .card-header {
+        font-weight: 500;
+        font-size: 3rem;
+    }
+    .list-group-item {
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 327px) {
+    .card .card-header {
+        font-weight: 400;
+        font-size: 2rem;
+    }
+    .list-group-item {
+        font-size: 0.7rem;
+    }
+}
