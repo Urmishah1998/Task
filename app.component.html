@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Ice And Fire</title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+  <div class="container-fluid">
+      <a  (click)="goback()"><span class="back glyphicon glyphicon-hand-left"></span></a><br/>
+      <h1 class="ttl">{{title}}</h1>
+  
+
+  <div class="parent">
+      <div class="card" style="order:1;">
+          <div class="card-body">
+            <img class="card-img-top" src="./../assets/background.png" >
+            <a class="card-link" [routerLink]="[view1]">View - 1</a>
+          </div>
+        </div>
+        <div class="card" style="order: 2">
+            <div class="card-body">
+              <img class="card-img-top" src="./../assets/view2.jpg">
+              <a class="card-link" [routerLink]="[view2]">View - 2</a>
+            </div>
+        </div>  
+  </div>
+
+      
+<router-outlet></router-outlet>    
+  
+
+
+  </div>  
+</body>
+</html>

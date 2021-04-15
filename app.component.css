@@ -1,0 +1,92 @@
+.container-fluid {
+    
+    min-height: 100vh;
+}
+.container-fluid .ttl {
+    font-size: 6rem;
+    font-family: 'Times New Roman', Times;
+    text-align: center;
+    color:black;
+}
+.parent {
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:30vh ;
+    padding: 10vw;
+}
+.back {
+    color:sienna;
+    width: 50px;
+    height: 50px;
+    border-radius: 7px;
+    position:fixed;
+}
+.back :hover {
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+    
+}
+.parent .card {    
+    width: 30vw;
+    height: 20vh;
+    border-color:crimson;
+    border-width: 10px;
+    border-radius: 5px;
+    
+}
+.card .card-body .card-img-top {
+    height: 18vh;
+    width: 28vw;
+    border-radius: 10px;
+    border:darksalmon 4px double;
+}
+.card-link {
+    font-family:'Trebuchet MS',sans-serif;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+     color:firebrick;
+    font-size: 3rem;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration-line: none;
+}
+.card-link:hover {
+    color:darkcyan;
+}
+
+
+@media screen and (min-width: 390px) and (max-width: 510px) {
+    .container-fluid .ttl {
+        font-size: 4rem;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 389px) {
+    .container-fluid .ttl {
+        font-size: 3rem;
+    }
+    .card-link {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 299px) {
+    .container-fluid .ttl {
+        font-size: 2rem;
+    }
+    .card-link {
+        font-size: 1rem;
+        font-weight: 300;
+    }
+    .parent {
+        display: flex;
+        flex-direction: column;
+    }
+    .parent .card {    
+        margin-bottom: 10vw;
+        margin-right: 0vw;
+    }
+}
