@@ -1,0 +1,15 @@
+<div class="card" >
+    <h4 class="card-header">Books</h4>
+    <ul class="list-group list-group-flush" *ngFor ="let i of arrayname">
+        <li class="list-group-item">{{i.name}}</li>
+        <li class="list-group-items">{{i.country}}</li>
+        <li class="list-group-items">{{i.numberOfPages}}</li>
+    </ul>
+</div>
+<div *ngIf="errormsg" class="alert alert-danger" role="alert">
+<strong>Oopsss !!! Some Error Occured....</strong><br/>
+    Try:<br/>
+    Checking the network cables, modem, and router<br/>
+    Reconnecting to Wi-Fi<br/>
+    Running Windows Network Diagnostics <br/>
+</div>
